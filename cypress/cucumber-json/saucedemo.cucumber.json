@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sauce Demo Login",
+    "line": 1,
+    "id": "sauce-demo-login",
+    "tags": [],
+    "uri": "saucedemo.feature",
+    "elements": [
+      {
+        "id": "sauce-demo-login;login-with-valid",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login with valid",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am in Sauce Demo",
+            "result": {
+              "status": "passed",
+              "duration": 585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username standard_user and password secret_sauce",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sauce-demo-login;login-with-locked",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login with locked",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am in Sauce Demo",
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username locked_out_user and password secret_sauce",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sauce-demo-login;login-with-problem",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login with problem",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am in Sauce Demo",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username problem_user and password secret_sauce",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sauce-demo-login;login-with-glitch",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login with glitch",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am in Sauce Demo",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username performance_glitch_user and password secret_sauce",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
